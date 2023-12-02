@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Austin Brunkhorst">
+    <meta name="description" content="The contact page for the resort called Swiss Adventures.">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Swiss Adventures | Contact</title>
+</head>
+<body id="contact">
+    <header>
+        <h1>Swiss Adventures</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="images/swiss-valley.jpg" height="560" width="1440" alt="A tranquil river flows through a verdant Alpine valley with towering snow-capped mountains under a clear sky in the background.">
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+            Required fields marked with a *</p>
+        <img  id="cont-img" src="images/swiss-sunset.jpg" height="270" width="710" alt="A serene lakeside scene at dusk with a dense forest and scattered houses, reflecting on the still water, set against a dramatic backdrop of the Alps illuminated by the warm glow of the setting sun.">
+        <form>
+            <div>
+                <label for="my-name">Name *</label>
+                <input type="text" id="my-name" name="my-name" required>
+                <label for="my-email">Email *</label>
+                <input type="email" id="my-email" name="my-email" required>
+                <label for="my-phone">Phone *</label>
+                <input type="tel" id="my-phone" name="my-phone" required>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Preferred Method of Contact *</legend>
+                    <input type="radio" name="contact-pref" id="pref-email" checked>
+                    <label for="pref-email">Email</label>
+                    <input type="radio" name="contact-pref" id="pref-phone">
+                    <label for="pref-phone">Phone</label>
+                </fieldset>
+                <label for="my-comments">Comments</label>
+                <textarea name="my-comments" id="my-comments"></textarea>
+                <input type="submit" name="my-submit" id="my-submit" value="Submit">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright &copy;2023 - Swiss Adventures</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
